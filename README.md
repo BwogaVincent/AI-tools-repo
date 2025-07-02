@@ -49,19 +49,4 @@ Amazon Reviews Bias: Sentiment analysis may misinterpret sarcasm or cultural nua
 Mitigation: Use fairness metrics (e.g., equal opportunity) and diverse training data to reduce biases.
 Troubleshooting Challenge (Buggy Code Fix):
 
-Since no buggy code was provided, I’ll assume a common TensorFlow issue (dimension mismatch in CNN). Below is a fixed version of a hypothetical buggy script.
 
-fixed_cnn.py
-python
-Edit in files
-•
-Show inline
-Explanation (for report): The buggy script likely had a dimension mismatch (e.g., missing channel dimension) and an incorrect loss function (e.g., categorical_crossentropy instead of sparse_categorical_crossentropy). The fixed script ensures proper data reshaping and loss function.
-
-Bonus Task: Deploy MNIST Classifier with Streamlit
-mnist_streamlit.py
-python
-Edit in files
-•
-Show inline
-Instructions (for report): Save the trained MNIST model as mnist_cnn.h5 after running the Task 2 script. Run streamlit run mnist_streamlit.py to launch the app. A screenshot of the web interface and a live demo link (if hosted, e.g., via Streamlit Cloud) will be included in the report.
